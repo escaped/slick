@@ -1521,7 +1521,7 @@
 
         _.init();
 
-        if( !initializing ) {
+        if (typeof initializing !== "boolean" || !initializing ) {
 
             _.changeSlide({
                 data: {
